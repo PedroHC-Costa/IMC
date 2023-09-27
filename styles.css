@@ -1,0 +1,162 @@
+/* Estilos para o Header */
+header {
+    height: 10px;
+}
+
+/* Estilos para a Navegação */
+nav {
+    background-color: rgba(12, 12, 12, 0.7);
+}
+
+/* Estilos para o Body */
+body {
+    background-image: url("Imagens/IMC.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o Espaçamento de Seção */
+.section-spacing {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-top: 20px;
+}
+
+/* Estilos para a Seção com Cor de Fundo Transparente */
+.section-spacing {
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* Estilos para as Células de Cabeçalho (th) da Tabela */
+th {
+    color: white;
+    font-size: 13px;
+    padding: 1%;
+}
+
+/* Estilos para a Tabela com Largura Específica */
+table {
+    width: 50%;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+/* Estilos para as Células de Cabeçalho (th) da Primeira Linha */
+tr:first-child th {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+/* Estilos para as Células de Dados (td) da Última Linha */
+tr:last-child th {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/* Estilos para Centralizar a Tabela Horizontalmente */
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilos para o Limite Máximo de Largura dos Parágrafos */
+section ul,
+section li,
+section,
+h2,
+p {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+/* Estilos para o Rodapé */
+.footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+   /* position: fixed;*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para os Links no Rodapé */
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #ff9900;
+}
+
+/* Estilos para o Conteúdo Principal */
+.content {
+    min-height: calc(100vh - 100px);
+    padding-bottom: 100px;
+}
+
+/* Estilos para o Formulário */
+.form-container {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+/* Estilos para o Fieldset */
+.form-container fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Estilos para a Legenda do Fieldset */
+.form-container legend {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Estilos para os Rótulos (Labels) */
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+/* Estilos para os Campos de Entrada (Input) */
+.form-container input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilos para o Botão Calcular */
+.form-container input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #0056b3;
+}
